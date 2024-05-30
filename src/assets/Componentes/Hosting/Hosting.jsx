@@ -17,7 +17,7 @@ const Hosting = () => {
             <img className='ball-9' src={Circle} alt="" />
             <img className='ball-10' src={Circle} alt="" />
             <img className='ball-11' src= {Circle} alt="" />
-            <img className='ball-12' src= {Circle} alt="" />
+    
             <img className='ball-13' src= {Circle} alt="" />
         </div>
     <div className='Third'>
