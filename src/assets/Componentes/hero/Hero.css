@@ -1,0 +1,267 @@
+.Home::-webkit-scrollbar {
+    display: none;
+}
+.Home
+{
+    position: relative;
+    height: 90vh;
+    overflow-x: clip;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Text{
+    color: #fb8500;
+    margin-bottom: 35px;
+    font-weight: bolder !important;
+    font-size: 30px !important;
+}
+.Hero p{
+    font-weight: 600;
+    font-size: 20px ;
+    line-height: 1.5;
+    width: 650px;
+
+}
+
+.content{
+    position: absolute;
+    bottom: 30%;
+    padding: 27px;
+    width: 700px;
+}
+.Hero-Footer
+{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    bottom: 170px;
+}
+.Footer-img
+{
+    position: absolute;
+    width: 1536px;
+    top: 0px;
+
+}
+.back
+{
+    position: absolute;
+    top: -422px;
+    right: 0;
+    z-index: -1;
+}
+.Game
+{
+    position: absolute;
+    top: -400px;
+    right: 14px;
+    width: 300px ;
+}
+.Press
+{
+    position: absolute;
+    top: -160px;
+    right: 135px;
+}
+.Start 
+{
+    z-index: 6;
+    top: -94px;
+    right: 360px;
+    width: 95px;
+    height: 34px;
+    font-size: 27px;
+    font-weight: 600;
+    position: absolute;
+    color: #fb8500;
+    text-decoration: none;
+}
+.footer-things
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.row
+{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -180px;
+    padding: 20px;
+    
+}
+.row ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.footer-things{
+    padding: 5px 20px;
+    position: absolute;
+    bottom: -200px;
+}
+.li-none
+{
+    list-style: none;
+}
+.copy-right
+{
+    width: 100% !important;
+    color: white;
+}
+
+
+@media (min-width:1024px) and (max-width:1200px)
+{
+    .Game 
+    {
+        width: 250px;
+        top: -300px;
+    }
+    .Press
+    {
+        top: -125px;
+        right: 115px;
+    }
+    .Start
+    {
+        top: -70px;
+        right: 337px ;
+    }
+    .Text
+    {
+        width: 500px !important;
+    }
+    .Hero p
+    {
+        width: 500px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px)
+{
+    .Game 
+    {
+        width: 250px;
+        top: -300px;
+    }
+    .Press
+    {
+        top: -125px;
+        right: 115px;
+    }
+    .Start
+    {
+        top: -70px;
+        right: 337px ;
+    }
+    .Text
+    {
+        width: 500px !important;
+    }
+    .Hero p
+    {
+        font-size: 20px;
+        width: 400px;
+    }
+    .content
+    {
+        bottom: 20%;
+    }
+}
+@media (min-width:481px) and (max-width:768px)
+{
+    .content
+    {
+        bottom: 50%;
+    }
+    .Game 
+    {
+        width: 200px;
+        top: -220px;
+    }
+    .Press
+    {
+        top: -125px;
+        right: 115px;
+    }
+    .Start
+    {
+        top: -70px;
+        right: 337px ;
+    }
+    .Text
+    {
+        font-size: 15px !important;
+    }
+    .Hero p 
+    {
+        font-size: 15px !important;
+        width: 400px;
+    }
+    .back
+    {
+        width: 100px;
+        top: -300px;
+    }
+
+}
+@media (min-width:300px) and (max-width:481px)
+{
+    .content
+    {
+        bottom: 35%;
+    }
+    .Game 
+    {
+        width: 130px;
+        top: -110px;
+    }
+    .Press
+    {
+         width: 200px;   
+        top: -90px;
+        right: 35px;
+    }
+    .Start
+    {
+        top: -40px;
+        right: 180px ;
+        z-index: 0;
+    }
+    .Text
+    {
+        font-size: 13px !important;
+    }
+    .Hero p 
+    {
+        font-size: 13px !important;
+        width: 250px;
+    }
+    .back
+    {
+        width: 70px;
+        top: -200px;
+    }
+    .row
+    {
+        flex-direction: column;
+        bottom: -210px;
+        
+    }
+    .content
+    {
+        width: 300px;
+    }
+
+
+}

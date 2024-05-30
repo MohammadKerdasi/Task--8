@@ -1,0 +1,204 @@
+.Second
+{
+    display: block;
+    width: 100%;
+
+}
+
+.servicesTitle
+{
+    padding: 100px 0 0 0 ;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.Cards
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Card
+{
+    position: relative;
+    margin: 20px;
+    width: 650px;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+    border-radius: 44px 0px 0px 44px; 
+    padding: 30px;
+}
+.BrandingText
+{
+    position: relative;
+    font-weight: 400;
+}
+.BrandingText::before
+{
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    background-color: #ff8500;
+    top: 31px;
+}
+.BrandP
+{
+    margin: 10px 0;
+}
+.DownText
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DownText-2{
+    margin: 20px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DownText-p
+{
+    font-size: 16px;
+    color: #8a8a8a;
+}
+.FocalxImg
+{
+    width: 200px;
+}
+.Ps
+{
+    margin-top: 20px !important;
+}
+.MarketingText
+{
+    position: relative;
+    font-weight: 400;
+}
+.MarketingText::before
+{
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    background-color: #a451ff;
+    top: 31px;
+} 
+.Services
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px
+}
+
+
+@media (min-width:1200px) and (max-width:1300px)
+{
+    .Card
+    {
+        width: 520px;
+    }
+    .DownText-p
+    {
+        font-size: 16px;
+    }
+    .FocalxImg
+    {
+        width: 150px;
+    }
+}
+
+    @media (min-width:1024px) and (max-width:1200px)
+{
+    .Card
+    {
+        width: 600px !important;
+    }
+    .Cards
+    {
+        text-align: center;
+        flex-direction: column;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .Card
+    {
+        width: 600px !important;
+    }
+    .Cards
+    {
+        text-align: center;
+        flex-direction: column;
+    }
+    .FocalxImg{
+        width: 200px;
+    }
+    .P-text
+    {
+        margin: 5px !important;
+    }
+    
+
+}
+@media (min-width:481px) and (max-width:768px)
+{
+    .Card
+    {
+        width: 300px !important;
+    }
+    .Cards
+    {
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .DownText
+    {
+        flex-direction: column;
+    }
+    .P-text
+    {
+        margin: 10px !important;
+    }
+    .DownText-2
+    {
+        flex-direction: column;
+    }
+}
+@media (min-width:300px) and (max-width:481px)
+{
+    .Card
+    {
+        width: 250px !important;
+        text-align: center;
+        margin: 0;
+    }
+    .Cards
+    {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+    .DownText
+    {
+        flex-direction: column;
+    }
+    .P-text
+    {
+        margin: 10px !important;
+    }
+    .DownText-2
+    {
+        flex-direction: column;
+    }
+    
+  
+
+}
+

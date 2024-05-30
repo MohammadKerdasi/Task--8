@@ -1,0 +1,106 @@
+.TheFooter
+{
+    background-color: rgb(38, 40, 42);
+    width: 100%;
+}
+.FooterCards
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100% !important;
+    flex-wrap: wrap;
+    
+}
+.FooterCard1
+{
+    
+    width: 400px !important;
+    margin: 50px auto;
+}
+.FooterCard
+{
+    
+    width: 200px;
+    margin: 50px auto;
+   
+    color: white;
+}
+.FooterCard p
+{
+    font-weight: 200;
+}
+.FooterCard h3{
+    margin: 10px 0;
+    font-weight: 600;
+}
+.OrangeColor
+{
+    color: #ff8500;
+}
+.FontText
+{
+    font-weight: 200 ;
+}
+.LogoCard
+{
+    margin-bottom: 30px ;
+    width: 100%;
+}
+ .h1-color
+{
+    color: white;
+    text-align: left;
+    font-weight: 400;
+    margin: 10px 0;
+   
+}
+.whiteColor
+{
+    color: white;
+    font-size: 16px;
+}
+.TextCenter
+{
+    text-align: center;
+}
+.ListItem-2
+{
+    list-style: none;
+}
+.List-2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-center
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.w-100
+{
+    width: 100% !important;
+}
+.container-2
+{
+    padding: 20px;
+}
+.hr
+{
+    width: 65%;
+    background-color: white;
+    height: 1px;
+    margin: auto;
+    
+} 
+
+@media (max-width:400px)
+{
+    .flex-center
+    {
+        flex-direction: column-reverse;
+    }
+}

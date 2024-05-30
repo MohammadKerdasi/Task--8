@@ -1,0 +1,123 @@
+nav{
+    width: 100%;
+    color: black;
+    position: fixed !important;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2 !important;
+}
+.logo
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.logo span{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 2px;
+}
+.list-item
+{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.list-item::before
+{
+    content: '';
+    background-color: orange;
+    position: absolute;
+    bottom : 20px;
+    width: 10px;
+    height: 3px;
+    transition: 0.3s ease;
+}
+.list-item:hover::before
+{
+    width: 30px;
+}
+.Menu-icon
+{
+    display: none;
+    color: #ff8500;
+    transition: 0.5s ease-in-out ;
+}
+
+@media (min-width:1024px) and (max-width:1200px) {
+
+    .list-item
+    {
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+}
+@media (min-width:300px) and (max-width:1024px)
+{
+    .list-item
+    {
+        font-size: 14px;
+        margin: 8px;
+    }
+    nav
+    {
+        padding: 15px 0 ;
+        
+    }
+    nav ul 
+    {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 200px;
+        color: white;
+        background-color: #ff8500;
+        padding-top: 70px;
+        transition: 0.5s;
+        z-index: 2;
+        padding: 20px 0;
+    }
+    .list-item
+    {
+        display: block;
+        margin: 25px 30px;
+    }
+    .list-item::before
+    {
+        display: none ;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .logo span 
+    {
+        font-size: 14px;
+    }
+    .Menu-icon
+    {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        position: relative;
+        z-index: 3;
+        filter: invert(1);
+    }
+    .side-bar
+    {
+        right: -250px;
+    }
+   
+}
