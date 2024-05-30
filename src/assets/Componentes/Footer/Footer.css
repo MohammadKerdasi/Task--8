@@ -103,4 +103,8 @@
     {
         flex-direction: column-reverse;
     }
+    .FooterCard
+    {
+        margin: 50px 0;
+    }
 }

@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 .Card
 {
@@ -91,7 +92,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px
+    
 }
 
 
@@ -147,7 +148,7 @@
 {
     .Card
     {
-        width: 300px !important;
+        width: 100%!important;
     }
     .Cards
     {
@@ -172,7 +173,7 @@
 {
     .Card
     {
-        width: 250px !important;
+        width: 100% !important;
         text-align: center;
         margin: 10px 0;
     }
